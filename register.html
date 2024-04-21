@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div>
+        <div class='bgRegister'>
+         <div class='RegisterElement md:w-[900px] bg-[#122926] mx-auto my-[50px] px-[50px]'>
+          <div class='inner md:w-[900px] border border-[#5a5959]'>
+            <p><img src='images/LoginLogo.png' class='h-[100px] w-[100px]' alt=''/></p>
+              <div>
+               <section class="text-white body-font relative">
+               <div class="container px-5 py-[20px] mx-auto">
+               <div class="flex flex-col text-center w-full mb-12">
+               <h1 class='font-bold text-3xl text-center mb-[20px]'>SIGN UP</h1>
+               </div>
+            <p class='text-[#F2DA16] font-bold'>UserID: <span class='text-[#4d8f84]'>RHI218277</span></p>
+              
+              <div class="">
+             <div class="flex flex-wrap -m-2">
+            <div class="p-2 md:w-1/2 ">
+              <div class="relative">
+               <label htmlFor="userid" class="leading-7  text-white">Sponsor Id</label>
+               <input type="text" id="userid" name="userid" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+            </div>
+          </div>
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="position" class="leading-7  text-white">Position</label>
+              <select  id="position" name="position"  class='w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2.5 px-3 leading-8 transition-colors duration-200 ease-in-out' placeholder='  --Select Position--  '>
+                  <option value="-1" class=''>  --Select Position--  </option>
+                  <option value="left"  class=''>LEFT</option>
+                  <option value="right" class=''>RIGHT</option>
+              </select>
+            </div>
+         </div>
+       </div>
+     </div>
+  
+     <div class="">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="name" class="leading-7  text-white">Full Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Full Name'/>
+            </div>
+          </div>
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="gender" class="leading-7  text-white">Gender</label>
+              <select  id="gender" name="gender"  class='w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2.5 px-3 leading-8 transition-colors duration-200 ease-in-out' placeholder='  --Select Gender--  '>
+                  <option value="-1" class=''>  --Select Gender--  </option>
+                  <option value="left"  class=''>Male</option>
+                  <option value="right" class=''>Female</option>
+                  <option value="right" class=''>Other</option>
+              </select>
+            </div>
+         </div> 
+       </div>
+     </div>
+  
+     <div class="">
+        <div class="flex flex-wrap -m-2">
+        <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="country" class="leading-7  text-white">Country</label>
+              <select  id="country" name="country"  class='w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2.5 px-3 leading-8 transition-colors duration-200 ease-in-out' placeholder='Enter Country Name'>
+                  <option value="-1" class=''>Enter Country Name</option>
+                  <option value="left"  class=''>India</option>
+              </select>
+            </div>
+         </div> 
+         <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="state" class="leading-7  text-white">State</label>
+              <select  id="state" name="state"  class='w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2.5 px-3 leading-8 transition-colors duration-200 ease-in-out' placeholder='Enter State Name'>
+                  <option value="-1" class=''>Enter State Name</option>
+                  <option value="left"  class=''>Maharashtra</option>
+              </select>
+            </div>
+         </div> 
+       </div>
+     </div>
+  
+     <div class="">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="email" class="leading-7  text-white">Email Id</label>
+              <input type="email" id="email" name="email" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Email'/>
+            </div>
+          </div>
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="mobile" class="leading-7  text-white">Mobile No.</label>
+              <input type="text" id="mobile" name="mobile" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Mobile Number'/>
+            </div>
+         </div>
+       </div>
+     </div>
+  
+     <div class="">
+        <div class="flex flex-wrap -m-2">
+        <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="districit" class="leading-7  text-white">District</label>
+              <select  id="districit" name="districit"  class='w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2.5 px-3 leading-8 transition-colors duration-200 ease-in-out' placeholder='Select District'>
+                  <option value="-1" class=''>Select District</option>
+                  <option value="left"  class=''>Nagpur</option>
+                  <option value="left"  class=''>Amravati</option>
+                  <option value="left"  class=''>Pune</option>
+              </select>
+            </div>
+         </div> 
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="pincode" class="leading-7  text-white">Pincode</label>
+              <input type="number" id="pincode" name="pincode" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Pincode'/>
+            </div>
+         </div>
+       </div>
+     </div>
+  
+     <div class="">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 md:w-1/2">
+            <div class="relative">
+              <label htmlFor="password" class="leading-7  text-white">Password</label>
+              <input type="password" id="password" name="password" class="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500  focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='Enter Password'/>
+            </div>
+          </div>
+           
+       </div>
+     </div>
+  
+    <div class='mt-[30px]'><input type='checkbox' checked/></div><span class='relative left-[20px] bottom-6'>I agree to the<span class='text-[#4d8f84]'> Terms Conditions</span></span>
+    <div class='py-[5px] text-center'>
+    <button class='bg-[#4d8f84] p-2 text-center w-[200px] font-bold rounded'>Register</button>
+    </div>
+    <p class='float-right'>Already Have an account? <a href='login.html' class='text-[#4d8f84]'>Log in</a></p>
+    </div>
+    </section>  
+               
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>  
+</body>
+</html> -->
