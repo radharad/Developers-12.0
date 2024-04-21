@@ -20,3 +20,11 @@ For any inquiries or feedback, please email me at komalsatpute950@gmail.com
 
 ## Demo Link:
 You can view the live demo [here](https://fastidious-pithivier-1ee6c2.netlify.app).
+
+## FAQs:
+- **Q:** How can I contribute to this project?
+  **A:** Follow the contributing guidelines mentioned above.
+
+- **Q:** Is this project open-source?
+  **A:** Yes.
+
